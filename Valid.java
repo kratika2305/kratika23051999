@@ -14,6 +14,8 @@ public class Valid
      Scanner sc = new Scanner(System.in);
      System.out.println("enter num");
      int n = sc.nextInt();
+     if(n>0)
+     {
       if(n%2==0)
        {
            System.out.println("even");
@@ -22,5 +24,10 @@ public class Valid
        {
            System.out.println("Odd");
        }
+    }
+     else
+     {
+         System.out.println("Invalid");
+     }
     }
 }
