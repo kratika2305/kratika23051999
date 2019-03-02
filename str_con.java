@@ -20,15 +20,7 @@ public class str_con
         String s1 = sc.nextLine();
         String s2;
         int l1=s1.length();
-      
-//        for(int i=0;i<l1;i++)
-//        {
-//            int c =(int)s1.charAt(i);
-//            if(c==32)
-//            {
-//                
-//            }
-//        }
+
         s2=s1.replaceAll(" ","");
         
        
